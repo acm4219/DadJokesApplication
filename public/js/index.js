@@ -3,6 +3,7 @@ $(document).ready(() => {
     const $punchline = $("#punchline");
     const $jokeList = $(".list-container .list-group");
     const $jokeItem = $(".joke-item")
+    const $punchlineBtn = $("#punchlineBtn")
 
     // const $jokeItem = $(.joke-item)
     // const activeJoke = {};
@@ -23,9 +24,15 @@ $(document).ready(() => {
         $punchline.text(jokepunchline);
         $joke.attr("readonly", false);
         $punchline.attr("readonly", false);
+        $punchline.hide()
     });
 
+    $punchlineBtn.on("click", function (event) {
+        console.log("punchline test")
+        event.preventDefault()
+        $punchline.show()
 
+    });
 })
 
 
