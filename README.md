@@ -1,6 +1,5 @@
 # Dad Jokes! 
 
-## Project 2 
 
 ## Description 
 Do you ever feel that there aren't enough dad jokes in the world? Do you want to do your part to get more out there for people to see? Then the Dad Jokes! site is perfect for you. Add, rate and view other people's jokes with our intuitive bar of jokes (see left side of screen). When you're done you can simply log out and come back later to see if the ratings have changed on your joke. You can become the Dadliest Dad out there with Dad Jokes!
